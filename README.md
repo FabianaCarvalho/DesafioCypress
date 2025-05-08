@@ -1,3 +1,5 @@
+// OBS: A Serverest é instável. O teste pode falhar se o produto for removido por outro usuário ou se o backend estiver inconsistente.
+
 # Comandos Customizados do Projeto
 
 ## `cy.cadastrarUsuario(user)`
