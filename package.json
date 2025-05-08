@@ -1,0 +1,21 @@
+{
+  "name": "desafio_cypress",
+  "version": "1.0.0",
+  "description": "Projeto realizado com muita dedicação!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:grep": "cypress run --env grepTags=@ci", 
+    "cypress:run:ci": "cypress run --browser chrome"
+  },
+  "keywords": [],
+  "author": "Fabiana Carvalho",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-grep": "^2.14.0"
+  }
+}
